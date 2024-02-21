@@ -1,0 +1,655 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+.navbar{
+    height: 90px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+}
+.navbar_logo{
+    height: 90px;
+    width: 220px;
+    padding-top: 10px;
+
+}
+.logo{
+
+    height: 66px;
+    width: 100%;
+    background-image: url("NicePng_amazon-logo-png_167642.png");
+    background-size: cover
+
+}
+.border{
+    border: 1px solid transparent;
+}
+
+
+.navaddress{
+position: relative;
+/*position: fixed;*/
+    top: 10px;
+    left: 35px
+
+
+}
+
+#india{
+    display: inline-block;
+    font-weight: bold;
+}
+
+select{
+
+    background-color: #FFFFFF;
+    font-size: 14px;
+    height: 40px;
+    display: inline-block;
+    border: none;
+    position: relative;
+    left: 82.5px;
+    top: 9.8px;
+
+
+}
+.dropdown{
+    border: none;
+
+
+}
+input{
+    height: 40px;
+     position: relative;
+     left:78px ;
+    top: 10px;
+
+    border: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+#search{
+    width: 50px;
+    height: 40.5px;
+    background-color: #ef9844;
+    position: relative;
+    left: 40px;
+    top: 10px;
+    border: none;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+
+
+
+
+}
+.country{
+    width: 16px;
+    height: 16px;
+    background-color:#0f1111 ;
+    position: relative;
+    left: 65px;
+    background-image: url("united-states.png");
+    background-size: cover;
+    top: 25px;
+
+}
+.countryoption{
+    position: relative;
+   left: 68px;
+    top: 13px;
+    background-color: #0f1111;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+#p2{
+    display: inline-block;
+    /*position: fixed;*/
+    position: relative;
+
+    font-weight: bold;
+    font-size: 14px;
+}
+#p1{
+  font-size: 12px;
+    position: relative;
+    top: 9px;
+}
+.hello{
+    /*position: fixed;*/
+    position: relative;
+    left: 110px;
+    top: 4px;
+}
+#sign{
+    background-color: transparent;
+    color: white;
+    position: relative;
+    left: -9px;
+    top: 2.8px;
+    font-weight: bold;
+
+
+}
+.return{
+    position: relative;
+    left: 150px;
+    top: 15px;
+}
+#p3{
+    font-size: 12px;
+}
+#p4{
+    font-size: 14px;
+    font-weight: bold;
+}
+#cart{
+    position: relative;
+    left: 200px;
+    top: 20px;
+}
+#p6{
+    position: relative;
+    left: 20px;
+    top: -13px;
+}
+.second{
+    background-color: #1f2f38;
+    height: 55px;
+
+    color: white;
+    display: flex;
+    align-items: center;
+
+}
+.icon{
+    padding-left: 25px;
+}
+
+#a{
+    font-weight: bold;
+    padding-left: 5px;
+
+
+}
+#b{
+    padding-left: 25px;
+}
+#c{
+    padding-left: 25px;
+}
+#d{
+    padding-left: 25px;
+}
+#e{
+    padding-left: 25px;
+}
+#f{
+    padding-left: 25px;
+}
+#g{
+    padding-left: 28px;
+}
+.main{
+
+}
+#firstimg{
+    background-image: url("71Ie3JXGfVL._SX3000_.jpg");
+    height: 400px;
+    background-size: cover;
+    background-color: whitesmoke;
+}
+#secondimg{
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+
+
+
+}
+#snampoo{
+    height: 400px;
+    width: 300px;
+    background-color: #dacbe0;
+    margin-top: 40px;
+
+
+
+
+}
+#snampooimg{
+    background-image: url("cc_758_laptop_us_v1._SY608_CB576754001_.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 250px;
+
+    margin-left: 25px;
+    margin-top: 20px;
+}
+#box1{
+    display: flex;
+    justify-content: center;
+}
+#boxp1{
+    margin-left: 25px;
+    margin-top: 20px;
+    color: #d33b3b;
+}
+#watch{
+    height: 400px;
+    width: 300px;
+    background-color: #dacbe0;
+
+    background-size: cover;
+    margin-top:40px ;
+
+}
+#watchimg{
+    background-image: url("Fuji_Dash_SmartWatch_2X._SY608_CB639922111_.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 250px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+#box2{
+    display: flex;
+    justify-content: center;
+}
+#boxp2{
+    margin-left: 25px;
+    margin-top: 20px;
+    color: #d33b3b;
+
+}
+#taddy{
+    height: 400px;
+    width: 300px;
+    background-color: #dacbe0;
+
+    background-size: cover;
+    margin-top:40px ;
+
+}
+#taddyimg{
+    background-image: url("Fuji_Desktop_Single_image_EBF_2x_v1._SY608_CB573698005_.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 250px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+#box3{
+    display: flex;
+    justify-content: center;
+}
+#boxp3{
+    margin-left: 25px;
+    margin-top: 20px;
+    color: #d33b3b;
+
+}
+#gift{
+    height: 400px;
+    width: 300px;
+    background-color: #dacbe0;
+
+    background-size: cover;
+    margin-top:40px ;
+
+}
+#giftimg{
+    background-image: url("Fuji_Desktop_Single_image_EBF_2x_v3._SY608_CB573698005_.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 250px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+#box4{
+    display: flex;
+    justify-content: center;
+}
+#boxp4{
+    margin-left: 25px;
+    margin-top: 20px;
+    color: #d33b3b;
+
+}
+#thirdimg{
+    height: 400px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+
+
+}
+#img5{
+    height: 400px;
+    width: 300px;
+    background-color: #dacbe0;
+    margin-top:80px ;
+
+    background-size: cover;
+
+}
+#fiveimg{
+    background-image: url("Fuji_Single_card_Lunar_New_Year_Graphics_2x_EN._SY608_CB585956471_.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 250px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+#box5{
+    display: flex;
+    justify-content: center;
+}
+#boxp5{
+    margin-left: 25px;
+    margin-top: 20px;
+    color: #d33b3b;
+
+}
+#img6{
+    background-color: #dacbe0;
+    height: 400px;
+    width: 300px;
+    margin-top:80px ;
+
+    background-size: cover;
+
+}
+#siximg{
+    background-image: url("XCM_CUTTLE_1546843_2940864_758x608_2X_en_US._SY608_CB613273467_.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 250px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+#box6{
+    display: flex;
+    justify-content: center;
+}
+#boxp6{
+    margin-left: 25px;
+    margin-top: 20px;
+    color: #d33b3b;
+
+}
+#img7{
+    background-color: #dacbe0;
+    height: 400px;
+    width: 300px;
+    margin-top:80px ;
+
+    background-size: cover;
+
+}
+#sevenimg{
+    background-image: url("XCM_CUTTLE_1555947_2997386_758x608_2X_en_US._SY608_CB594429819_.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 250px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+#box7{
+    display: flex;
+    justify-content: center;
+}
+#boxp7{
+    margin-left: 25px;
+    margin-top: 20px;
+    color: #d33b3b;
+
+}
+#img8{
+    background-color: #dacbe0;
+    height: 400px;
+    width: 300px;
+    margin-top:80px;
+
+    background-size: cover;
+
+}
+#eightimg{
+    background-image: url("41VG+ol-EtL._AC_SY400_.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 250px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+#box8{
+    display: flex;
+    justify-content: center;
+}
+#boxp8{
+    margin-left: 25px;
+    margin-top: 20px;
+    color: #d33b3b;
+
+}
+#fourthimg{
+    background-color: whitesmoke;
+    height: 300px;
+}
+#d8{
+    height: 180px;
+
+    margin-top: 120px;
+    background-color: #dacbe0;
+    border: thin white;
+
+
+}
+main{
+    background-color: rgba(245, 245, 245, 0.74);
+}
+
+#p8{
+    margin-left: 535px;
+   padding-top: 50px;
+    font-size: 13px;
+}
+#b8{
+    margin-left: 500px;
+    width: 270px;
+    height: 30px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background-color: #ef9844;
+    font-weight: bold;
+    margin-top: 5px;
+
+}
+#new{
+    display: flex;
+    margin-left: 580px;
+    margin-top: 5px;
+}
+#p9{
+    font-size: 12px;
+}
+#p10{
+    font-size: 12px;
+    color: #880dfa;
+}
+#back{
+    background-color: #283b42;
+    height: 50px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+#last{
+    height: 350px;
+    background-color: #1f2f38;
+    display: flex;
+    justify-content: space-evenly;
+}
+.lastp{
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-top: 25px;
+}
+li{
+    color: #FFFFFF;
+    padding-top: 13px;
+    list-style: none;
+    font-size: 14px;
+}
+#dev{
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    background-color: #1f2f38;
+    border-top: white solid;
+}
+#ll{
+    height: 60px;
+    width: 80px;
+    background-image: url("NicePng_amazon-logo-png_167642.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    margin-right: 50px;
+
+}
+.style{
+    width:160px ;
+    height: 40px;
+    border: #FFFFFF solid;
+    margin-top: 30px;
+    margin-left: 7px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#ll2{
+    display: flex;
+    justify-content: space-evenly;
+}
+#eng{
+    display: flex;
+   padding-left: 20px;
+    align-items: center;
+
+}
+#lang {
+    color: #f1e6e6;
+    margin-left: 10px;
+    font-size: 14px;
+}
+#usd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pusd{
+    color: #f1e6e6;
+    font-size: 14px;
+}
+#nation{
+    display: flex;
+    align-items: center;
+}
+#us{
+    background-image: url("united-states.png");
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    margin-left: 10px;
+}
+#usa{
+    color: #f1e6e6;
+    margin-left: 10px;
+    font-size: 14px;
+}
+#har{
+    background-color: #2e3333;
+    height: 450px;
+}
+#az1{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+
+
+}
+#az2{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top:20px ;
+}
+#az3{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+.b1{
+    color: #FFFFFF;
+}
+.m{
+    padding: 0px;
+    color: rgba(241, 230, 230, 0.82);
+    font-size: 11.5px;
+}
+.to{
+    color: #FFFFFF;
+    font-size: 12.5px;
+}
+#azz15{
+    margin-left: 100px;
+}
+#azz16{
+  position: relative;
+    right: 100px;
+}
+#azz17{
+    position: relative;
+    right: 190px;
+}
+#azz18{
+    position: relative;
+    right: 270px;
+}
+#vbn{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.not{
+    color: #FFFFFF;
+    padding-left: 15px;
+    font-size: 13px;
+}
+#lastpar{
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
